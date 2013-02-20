@@ -1,0 +1,8 @@
+# textbcast config
+
+# Hoiio App ID
+HOI_APPID=""
+# Hoiio Token
+HOI_TOKEN=""
+# Sender Name
+HOI_SENDER=""
