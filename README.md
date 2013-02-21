@@ -7,6 +7,12 @@ textbcast is a rather simple shell script that uses the [Hoiio](http://developer
 To configure textbcast, edit the config file.
 `HOI_APPID` and `HOI_TOKEN` are your Hoiio Application ID and Access Token respectively. `HOI_SENDER` is the name or phone number you want the text message to be from.  
 
+# Usage #
+
+`./bcast.sh <filename>`  
+  
+`filename` should be a plaintext file containing the list of numbers to text. Each line should contain a single, full number including the country code (e.g. +6590000000). You may add comments by using a #.
+
 # Why? #
 
 * We had a hackathon.
