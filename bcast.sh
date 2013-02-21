@@ -5,7 +5,7 @@
 #	python's json.tool
 
 source ./config
-source ./support.inc
+source ./support.sh
 
 if ! [[ -f "${1}" ]]; then
 	echo "File \"${1}\" does not exist."

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Usage: read_nums <filenames>
 # Returns: converts one-number-per-line to a single comma-separated line
 function read_nums {
